@@ -1,0 +1,59 @@
+<h1>Pokemon Form Test</h1>
+<form action="/test" method="POST">
+
+  <label for="POST-name">Name</label>
+  <input id="POST-name" type="text" name="name"/>
+
+<h1>Pokemon</h1>
+  <br>
+  <label for="POST_member_name">Member Name 1</label>
+  <input id="POST_member_name" type="text" name="team[0][name]">
+
+  <label for="POST_member_type"> Member Type 1</label>
+  <select id="POST_member_type" type="text" name="team[0][type]">
+    <option value="bug">Bug</option>
+    <option value="fire">Fire</option>
+    <option value="normal">Normal</option>
+    <option value="ghost">Ghost</option>
+  </select>
+
+  <br></br>
+
+  <label for="POST_member_name">Member Name 2</label>
+  <input id="POST_member_name" type="text" name="team[1][name]">
+
+ <label for="POST_member_type"> Member Type 2</label>
+  <select id="POST_member_type" type="text" name="team[0][type]">
+    <option value="bug">Bug</option>
+    <option value="fire">Fire</option>
+    <option value="normal">Normal</option>
+    <option value="ghost">Ghost</option>
+  </select>
+
+<br></br>
+  <label for="POST_member_name">Member Name 3</label>
+  <input id="POST_member_name" type="text" name="team[2][name]">
+
+ <label for="POST_member_type"> Member Type 3</label>
+  <select id="POST_member_type" type="text" name="team[0][type]">
+    <option value="bug">Bug</option>
+    <option value="fire">Fire</option>
+    <option value="normal">Normal</option>
+    <option value="ghost">Ghost</option>
+  </select>
+
+</br>
+
+  <h1>Badges</h1>
+  <br>
+  <label for="POST-badge">Badge Type</label>
+  <input id="POST-badge" type="text" name="badge[0]">
+
+  <label for="POST-badge">Badge Type</label>
+  <input id="POST-badge" type="text" name="badge[1]">
+</br>
+
+
+
+  <button type="submit" value="Submit">Submit</button>
+</form>
